@@ -9,7 +9,7 @@ import { RouterView } from 'vue-router'
   <HeaderComponent />
   <div class="flex">
     <SideBarComponent />
-    <RouterView class="flex-grow"/>
+    <RouterView class="flex-grow basis-60 border-l-2" />
   </div>
 </template>
 
