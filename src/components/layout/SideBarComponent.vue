@@ -9,7 +9,7 @@ const { menuToggle } = storeToRefs(useHeaderStore());
 </script>
 
 <template>
-    <div class="bg-white max-w-60" :class="{ 'slideFromLeft': menuToggle, 'slideToLeft': !menuToggle }">
+    <div class="bg-white max-w-60 fixed top-14" :class="{ 'slideFromLeft': menuToggle, 'slideToLeft': !menuToggle }">
         <div class="px-2 h-[80vh] overflow-hidden hover:overflow-y-scroll custom-scrollbar">
             <div class="">
                 <div class="uppercase font-bold text-xs cursor-pointer pt-5">planning</div>
